@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<parameters>
+  <number-of-particles>159108</number-of-particles>
+  <number-of-boundary-particles>89367</number-of-boundary-particles>
+  <number-of-material-particles>69741</number-of-material-particles>
+
+  <domain-size-x>63e-2</domain-size-x>
+  <domain-size-y>12e-2</domain-size-y>
+  <domain-size-z>7e-2</domain-size-z>
+  <domain-min-x>10.3628e-2</domain-min-x>
+  <domain-min-y>10.2896e-2</domain-min-y>
+  <domain-min-z>-0.625e-2</domain-min-z>
+
+  <particle-size>0.25e-2</particle-size>
+  <h-over-dr>1.35</h-over-dr>
+  <reference-density>2650</reference-density>
+  <speed-of-sound>51</speed-of-sound>
+  <cfl-number>0.2</cfl-number>
+
+
+
+  <material index="1">
+  <rho0>2650</rho0>
+  <elastic-K>5.83e+5</elastic-K>
+  <elastic-G>2.69e+5</elastic-G>
+  <constitutive-model>8</constitutive-model>
+  <DP-kpsi>0.0</DP-kpsi>
+  <DP-kcohesion>20000</DP-kcohesion>
+  <particle-diameter>0.007</particle-diameter>
+  <solid-density>2600</solid-density>
+  <mu-s>0.398</mu-s>
+  <mu-2>0.798</mu-2>
+  <I-0>3.75</I-0>
+  <regularization-lambda>0.001</regularization-lambda>
+<dilatancy-angle>0.0</dilatancy-angle>
+<cohesion>0.0</cohesion>
+<nonlocal-cooperativity>8</nonlocal-cooperativity>
+</material>
+
+
+<material index="9">
+  <rho0>2650</rho0>
+  <elastic-K>5.83e+5</elastic-K>
+  <elastic-G>2.69e+5</elastic-G>
+  <constitutive-model>5</constitutive-model>
+  <DP-kphi>0.33244</DP-kphi>
+  <DP-kpsi>0.0</DP-kpsi>
+  <DP-kcohesion>0</DP-kcohesion>
+  <particle-diameter>0.002</particle-diameter>
+  <mu-s>0.30001</mu-s>
+  <mu-2>0.52279</mu-2>
+  <I-0>0.135</I-0>
+</material>
+  
+  <acceleration-x>0</acceleration-x>
+  <acceleration-y>-9.81</acceleration-y>
+  <acceleration-z>0</acceleration-z>
+
+  <time-max>2</time-max>
+  <time>0</time>
+  <time-step>0.000288531</time-step>
+  
+  <output-frequency>0.1</output-frequency>
+  <output-number>0</output-number>
+  <output-format>2</output-format> 
+  <density-shepard-filter>0</density-shepard-filter>
+  <stress-shepard-filter>0</stress-shepard-filter>
+  <dynamic-time-step>1</dynamic-time-step>
+  <integration-method>2</integration-method>
+  <viscosity-type>2</viscosity-type>
+  <artificial-viscosity-alpha>0.001</artificial-viscosity-alpha>
+  <artificial-viscosity-q1>0.1</artificial-viscosity-q1>
+  <artificial-viscosity-q2>0.1</artificial-viscosity-q2>
+  <velocity-limit>1000000.0</velocity-limit>
+  <momentum-form>2</momentum-form>
+  <artificial-pressure>1</artificial-pressure>
+  <active-boundary-adami type="int">0</active-boundary-adami>
+  <static-boundary-grid type="int">0</static-boundary-grid>
+  </parameters>

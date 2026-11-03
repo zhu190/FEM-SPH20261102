@@ -1,0 +1,30 @@
+# Local particle data (initial inputs and generated data)
+*.dat
+
+# Simulation output directories (the sample project writes into eg/soil/)
+eg/soil/
+VTU/
+VTK/
+output/
+outputs/
+results/
+
+# Generated visualization and time-step output
+*.vtu
+*.vtk
+*.pvtu
+*.pvd
+*.vti
+*.vtp
+output_*.xml
+[0-9]*_[0-9]*.dat
+*.log
+
+# Local backups and caches
+*.bak
+*.tmp
+*~
+__pycache__/
+.julia/
+.DS_Store
+Thumbs.db
